@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Jared Burck"
   email = "jared.burck@gmail.com"
-  profile_image = "/images/jaredburck-profile.jpg"
+  profile_image = "/images/jaredburck-profile.jpeg"
   author = "Jared Burck"
   og_image = "images/og-image.png"
   description = "Jared Burck's personal website for self promotion and branding"

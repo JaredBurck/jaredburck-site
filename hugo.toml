@@ -1,0 +1,95 @@
+baseURL = "https://jaredburck.pages.dev"
+languageCode = "en-us"
+title = "Jared Burck"
+theme = "careercanvas"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      tagline = "Your Tagline"
+      hero_description = "Short bio for the hero section."
+      hero_location = "City, Country"
+      collab_tags = ["Tag 1", "Tag 2", "Tag 3"]
+
+[build]
+  writeStats = true
+
+[params]
+  name = "Jared Burck"
+  email = "your@email.com"
+  profile_image = "/images/profile.jpg"
+  author = "Jared Burck"
+  og_image = "images/og-image.png"
+  description = "Personal resume website for Jared Burck"
+  linkedin_url = "https://linkedin.com/in/jaredburck"
+  linkedin_text = "linkedin.com/in/jaredburck"
+  github_url = "https://github.com/jaredburck"
+  github_text = "github.com/jaredburck"
+  calendly_url = ""
+  calendly_height = "700px"
+  copyright = "© 2025 | Jared Burck"
+  resume_url_en = "/files/resume.pdf"
+  resume_url_fr = ""
+  resume_label = "View Resume"
+  sectionPagesMenu = "main"
+  formspreeendpoint = ""
+  pexelsapikey = ""
+
+  [[params.social]]
+    icon = "linkedin-in"
+    url = "https://linkedin.com/in/jaredburck"
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/jaredburck"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+
+# Color palettes - one is picked at random per page load
+[params.color_palettes]
+  [[params.color_palettes.palette]]
+    name = "professional"
+    main_color = "#474A51"
+    second_color = "#E52521"
+    third_color = "#3CB043"
+  [[params.color_palettes.palette]]
+    name = "ocean"
+    main_color = "#1E40AF"
+    second_color = "#06B6D4"
+    third_color = "#10B981"
+  [[params.color_palettes.palette]]
+    name = "steel"
+    main_color = "#374151"
+    second_color = "#6B7280"
+    third_color = "#10B981"
+  [[params.color_palettes.palette]]
+    name = "slate"
+    main_color = "#475569"
+    second_color = "#0EA5E9"
+    third_color = "#F97316"
+
+# Pexels hero backgrounds
+[params.pexels]
+  queries = ["long span bridges", "skyscrapers", "sky and clouds"]

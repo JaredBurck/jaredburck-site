@@ -1,0 +1,28 @@
+---
+title: "Skills"
+intro: "A comprehensive overview of my technical expertise and professional capabilities"
+domains:
+  - title: "Frontend Development"
+    icon: "code"
+    description: "Building responsive and interactive user interfaces"
+  - title: "Backend Development"
+    icon: "server"
+    description: "Designing scalable server-side architectures"
+  - title: "Cloud Computing"
+    icon: "cloud"
+    description: "Deploying and managing cloud infrastructure"
+  - title: "DevOps"
+    icon: "cogs"
+    description: "Automating deployment and infrastructure management"
+technical:
+  - "JavaScript"
+  - "TypeScript"
+  - "React"
+  - "Node.js"
+  - "Python"
+  - "Go"
+  - "Docker"
+  - "Kubernetes"
+  - "AWS"
+  - "Git"
+---

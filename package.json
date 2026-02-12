@@ -1,0 +1,32 @@
+{
+  "name": "jaredburck-site",
+  "version": "1.0.0",
+  "description": "Personal resume website built with Hugo and CareerCanvas theme",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --minify",
+    "preview": "hugo server --buildDrafts",
+    "build:css": "tailwindcss -i ./themes/careercanvas/assets/css/main.css -o ./themes/careercanvas/static/css/main.css --minify",
+    "watch:css": "tailwindcss -i ./themes/careercanvas/assets/css/main.css -o ./themes/careercanvas/static/css/main.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaredburck/jaredburck-site.git"
+  },
+  "keywords": [
+    "hugo",
+    "resume",
+    "portfolio"
+  ],
+  "author": "Jared Burck",
+  "license": "MIT"
+}

@@ -34,7 +34,7 @@ hugo server
 
 ### 2. Configuration Validation
 
-✅ **Check `hugo.toml`:**
+✅ **Check `config.toml`:**
 - [ ] `baseURL` is set (update to your Cloudflare Pages URL after deployment)
 - [ ] `theme = "careercanvas"` is set
 - [ ] Personal information is updated (name, email, social links)
@@ -61,7 +61,7 @@ git status
 
 **Should show:**
 - [ ] All content files staged/committed
-- [ ] `hugo.toml` committed
+- [ ] `config.toml` committed
 - [ ] `.gitmodules` file exists
 - [ ] `package.json` and config files committed
 - [ ] `node_modules/` is NOT tracked (in .gitignore)
@@ -156,17 +156,17 @@ git push
 ## Post-Deployment Checklist
 
 ### Content Updates
-- [ ] Update personal information in `hugo.toml`
+- [ ] Update personal information in `config.toml`
 - [ ] Add your actual resume PDF to `static/files/resume.pdf`
-- [ ] Update `resume_url_en` in `hugo.toml` to `/files/resume.pdf`
+- [ ] Update `resume_url_en` in `config.toml` to `/files/resume.pdf`
 - [ ] Add profile image to `static/images/profile.jpg`
-- [ ] Update `profile_image` in `hugo.toml`
+- [ ] Update `profile_image` in `config.toml`
 - [ ] Customize color palettes if desired
 - [ ] Update social media links with your actual profiles
 
 ### Custom Domain (Optional)
 - [ ] Add custom domain in Cloudflare Pages
-- [ ] Update `baseURL` in `hugo.toml` to match custom domain
+- [ ] Update `baseURL` in `config.toml` to match custom domain
 - [ ] Commit and push changes
 - [ ] Verify DNS configuration
 - [ ] Test site on custom domain
@@ -201,7 +201,7 @@ git push
 ### Site Not Loading
 
 **Issue**: 404 errors
-- **Check**: `baseURL` in `hugo.toml` matches deployment URL
+- **Check**: `baseURL` in `config.toml` matches deployment URL
 - **Check**: Build output directory is `public`
 
 **Issue**: Styles not loading

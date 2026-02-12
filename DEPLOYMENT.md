@@ -85,11 +85,11 @@ This guide walks you through deploying your Hugo site to Cloudflare Pages.
 2. Click **Custom domains**
 3. Add your domain (e.g., `jaredburck.com`)
 4. Follow DNS configuration instructions
-5. Update `baseURL` in `hugo.toml` to match your domain
+5. Update `baseURL` in `config.toml` to match your domain
 
 ## Step 4: Update Hugo Configuration
 
-After deployment, update `hugo.toml` with your actual Cloudflare Pages URL:
+After deployment, update `config.toml` with your actual Cloudflare Pages URL:
 
 ```toml
 baseURL = "https://jaredburck.pages.dev"
@@ -147,7 +147,7 @@ After deployment, verify:
 
 ### Assets Not Loading
 
-1. Check `baseURL` in `hugo.toml` matches your deployment URL
+1. Check `baseURL` in `config.toml` matches your deployment URL
 2. Verify static files are in `static/` directory
 3. Check file paths are relative to site root
 

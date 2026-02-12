@@ -7,7 +7,7 @@ This guide walks you through the complete setup process from creation to deploym
 Your Hugo site has been created with:
 - ✅ Hugo site structure initialized
 - ✅ CareerCanvas theme installed as git submodule
-- ✅ Configuration files set up (`hugo.toml`, `postcss.config.js`, `tailwind.config.js`)
+- ✅ Configuration files set up (`config.toml`, `postcss.config.js`, `tailwind.config.js`)
 - ✅ Initial content structure created
 - ✅ Git repository initialized
 - ✅ Cloudflare Pages configuration prepared
@@ -17,9 +17,9 @@ Your Hugo site has been created with:
 
 ### Step 1: Customize Your Content
 
-**Update `hugo.toml`:**
+**Update `config.toml`:**
 ```bash
-# Edit hugo.toml and update:
+# Edit config.toml and update:
 - name: "Jared Burck"  # Your name
 - email: "your@email.com"  # Your email
 - linkedin_url: "https://linkedin.com/in/jaredburck"  # Your LinkedIn
@@ -37,7 +37,7 @@ Your Hugo site has been created with:
 **Add assets:**
 - Profile image: `static/images/profile.jpg`
 - Resume PDF: `static/files/resume.pdf`
-- Update `profile_image` and `resume_url_en` in `hugo.toml`
+- Update `profile_image` and `resume_url_en` in `config.toml`
 
 ### Step 2: Push to GitHub
 
@@ -123,7 +123,7 @@ wrangler pages deploy public --project-name=jaredburck-site
 
 ### Step 4: Update Configuration
 
-After deployment, update `hugo.toml` with your actual Cloudflare Pages URL:
+After deployment, update `config.toml` with your actual Cloudflare Pages URL:
 
 ```toml
 baseURL = "https://jaredburck.pages.dev"  # Your actual URL
@@ -131,7 +131,7 @@ baseURL = "https://jaredburck.pages.dev"  # Your actual URL
 
 Then commit and push:
 ```bash
-git add hugo.toml
+git add config.toml
 git commit -m "Update baseURL for Cloudflare Pages"
 git push
 ```
@@ -160,7 +160,7 @@ See `VALIDATION.md` for detailed validation checklist.
 
 ### Update Colors
 
-Edit color palettes in `hugo.toml`:
+Edit color palettes in `config.toml`:
 ```toml
 [params.color_palettes]
   [[params.color_palettes.palette]]
@@ -173,7 +173,7 @@ Edit color palettes in `hugo.toml`:
 ### Add Resume PDF
 
 1. Place PDF in `static/files/resume.pdf`
-2. Update `hugo.toml`:
+2. Update `config.toml`:
    ```toml
    resume_url_en = "/files/resume.pdf"
    ```
@@ -181,7 +181,7 @@ Edit color palettes in `hugo.toml`:
 ### Add Profile Image
 
 1. Place image in `static/images/profile.jpg`
-2. Update `hugo.toml`:
+2. Update `config.toml`:
    ```toml
    profile_image = "/images/profile.jpg"
    ```

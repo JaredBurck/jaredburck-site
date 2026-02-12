@@ -11,9 +11,9 @@ defaultContentLanguageInSubdir = false
     languageName = "English"
     weight = 1
     [languages.en.params]
-      tagline = "Your Tagline"
-      hero_description = "Short bio for the hero section."
-      hero_location = "City, Country"
+      tagline = "Enterprise Architect | Open Source Engineer | Full Stack Developer"
+      hero_description = "Multi-dimensional problem solver and chief imagination officer with the ability to accept and succeed on almost any strategic or tactical challenge under almost any deadline. Stellar program and project management, from initial design concept to final completion and delivery! Proven concepting, strategic, design, copy writing and content development skills with the consistent ability to persuade, educate and communicate the client's message, brand and vision. Big picture thinking, using creativity to turn client problems into customer solutions."
+      hero_location = "Austin, Texas"
       collab_tags = ["Tag 1", "Tag 2", "Tag 3"]
 
 [build]
@@ -21,31 +21,34 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Jared Burck"
-  email = "your@email.com"
-  profile_image = "/images/profile.jpg"
+  email = "jared.burck@gmail.com"
+  profile_image = "/images/jaredburck-profile.jpg"
   author = "Jared Burck"
   og_image = "images/og-image.png"
-  description = "Personal resume website for Jared Burck"
-  linkedin_url = "https://linkedin.com/in/jaredburck"
-  linkedin_text = "linkedin.com/in/jaredburck"
-  github_url = "https://github.com/jaredburck"
-  github_text = "github.com/jaredburck"
+  description = "Jared Burck's personal website for self promotion and branding"
+  linkedin_url = "https://linkedin.com/in/JaredBurck"
+  linkedin_text = "linkedin.com/in/JaredBurck"
+  github_url = "https://github.com/JaredBurck"
+  github_text = "github.com/JaredBurck"
   calendly_url = ""
   calendly_height = "700px"
-  copyright = "© 2025 | Jared Burck"
-  resume_url_en = "/files/resume.pdf"
+  copyright = "© 2026 | Jared Burck"
+  resume_url_en = "/files/jaredburck-resume-cv.pdf"
   resume_url_fr = ""
-  resume_label = "View Resume"
+  resume_label = "View Resume/CV"
   sectionPagesMenu = "main"
   formspreeendpoint = ""
   pexelsapikey = ""
 
   [[params.social]]
     icon = "linkedin-in"
-    url = "https://linkedin.com/in/jaredburck"
+    url = "https://linkedin.com/in/J`aredBurck"
   [[params.social]]
     icon = "github"
-    url = "https://github.com/jaredburck"
+    url = "https://github.com/JaredBurck"
+  # [[params.social]]
+  #   icon = "calendly"
+  #   url = "https://calendly.com/JaredBurck"
 
 [taxonomies]
   tag = "tags"

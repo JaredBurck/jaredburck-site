@@ -57,13 +57,13 @@ jaredburck-site/
 ├── themes/          # Hugo themes
 │   └── careercanvas/ # CareerCanvas theme (git submodule)
 ├── static/          # Static files (images, PDFs, etc.)
-├── hugo.toml        # Hugo configuration
+├── config.toml      # Hugo configuration
 └── README.md        # This file
 ```
 
 ## 🎨 Customization
 
-Edit `hugo.toml` to customize:
+Edit `config.toml` to customize:
 - Personal information (name, email, social links)
 - Site URL and base configuration
 - Color palettes

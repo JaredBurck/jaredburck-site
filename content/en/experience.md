@@ -1,7 +1,9 @@
 ---
 title: "Experience"
 type: "homepage"
-intro: "My professional journey and key achievements"
+#intro: "My professional journey and key achievements"
+intro: >-
+  From software engineering to AI development, building practical tools that bridge traditional engineering with modern technology.
 resume_label: "View Resume/CV"
 resume_downloads:
   - lang: "en"

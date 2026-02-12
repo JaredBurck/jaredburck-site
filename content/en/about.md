@@ -17,12 +17,18 @@ mix: "I combine technical expertise with creative problem-solving to deliver imp
 personal: "When I'm not coding, I enjoy exploring new technologies and contributing to open-source projects."
 
 quickfacts:
-  - title: "Location"
-    icon: "map-marker-alt"
-    value: "City, Country"
-  - title: "Education"
-    icon: "graduation-cap"
-    value: "Your Degree"
+  - icon: "briefcase"
+    title: "Current Role"
+    value: "🏗️🤖💻 Managing Architect, AI and Full Stack Consultant at <a href=\"https://www.redhat.com\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Red Hat</strong></a>"
+  - icon: "graduation-cap"
+    title: "Education"
+    value: "🏗️ <a href=\"https://www.txst.edu\" target=\"_blank\" rel=\"noopener noreferrer\">Texas State University</a>, **Bachelor's Degree in Computer Information Systems**<br>🤖 <a href=\"https://lasallecollege.lcieducation.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">McCoy College</a>., **BA: Business Administration**"
+#  - icon: "award"
+#    title: "Recent Achievement"
+#    value: "🏆 Recipient of the <a href=\"/blog/academic-excellence-recognition/\" target=\"_blank\" rel=\"noopener\">Academic Excellence Scholarship</a> 🎓 sponsored by ✈️ Air Canada at Collège LaSalle Montréal (2025) 🎉"
+#  - title: "Education"
+#    icon: "graduation-cap"
+#    value: "Bachelors of Science"
   - title: "Interests"
     icon: "heart"
     kind: "interests"
@@ -37,6 +43,6 @@ quickfacts:
     icon: "language"
     kind: "languages"
     value: |
-      - English (native)
-      - Spanish (restaurant)
+      - 🇬🇧 English (Native)
+      - 🇨🇱 Spanish (Novice)
 ---

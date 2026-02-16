@@ -50,6 +50,9 @@ technical_groups:
         devicon_name: "azuresqldatabase"
       - icon: "server"
         name: "NoSQL"
+      - icon: "prometheus"
+        name: "PromQL"
+        devicon_name: "azuresqldatabase"
 
   - title: "Backend Frameworks"
     icon: "server"

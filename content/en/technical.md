@@ -7,6 +7,23 @@ intro: >-
   Technical expertise spanning software development, AI/ML, and engineering technologies.
 
 technical_groups:
+  - title: "Hyperscalers / Clouds"
+    icon: "cloud"
+    color_scheme: "blue"
+    skills:
+      - icon: "aws"
+        name: "AWS"
+        devicon_name: "aws"
+      - icon: "azure"
+        name: "Azure"
+        devicon_name: "azure"
+      - icon: "gcp"
+        name: "GCP"
+        devicon_name: "gcp"
+      - icon: "ibmcloud"
+        name: "IBM Cloud"
+        devicon_name: "ibmcloud"
+
   - title: "Programming Languages"
     icon: "code"
     color_scheme: "blue"

@@ -167,7 +167,7 @@ technical_groups:
       - icon: "rust"
         name: "Rust"
         devicon_name: "rust"
-        - icon: "js"
+      - icon: "js"
         name: "JavaScript"
         devicon_name: "javascript"
       - icon: "bash"

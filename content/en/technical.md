@@ -24,7 +24,21 @@ technical_groups:
         name: "IBM Cloud"
         devicon_name: "ibmcloud"
 
-  - title: "Programming Languages"
+  - title: "Operating Systems"
+    icon: "cloud"
+    color_scheme: "blue"
+    skills:
+      - icon: "linux"
+        name: "Linux"
+        devicon_name: "rhel"
+      - icon: "windows"
+        name: "Windows"
+        devicon_name: "windows"
+      - icon: "macos"
+        name: "MacOS"
+        devicon_name: "macos"
+
+- title: "Programming Languages"
     icon: "code"
     color_scheme: "blue"
     skills:

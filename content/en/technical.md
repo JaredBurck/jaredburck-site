@@ -34,9 +34,9 @@ technical_groups:
       - icon: "windows"
         name: "Windows"
         devicon_name: "windows"
-      - icon: "macos"
-        name: "MacOS"
-        devicon_name: "macos"
+      - icon: "mac"
+        name: "Mac"
+        devicon_name: "mac"
 
 - title: "Programming Languages"
     icon: "code"

@@ -38,6 +38,23 @@ technical_groups:
         name: "Mac"
         devicon_name: "mac"
 
+  - title: "Hypervisors"
+    icon: "cloud"
+    color_scheme: "blue"
+    skills:
+      - icon: "kvm"
+        name: "KVM"
+        devicon_name: "kvm"
+      - icon: "vmware"
+        name: "VMware"
+        devicon_name: "vmware"
+      - icon: "hyper-v"
+        name: "Hyper-V"
+        devicon_name: "hyper-v"
+      - icon: "kubevirt"
+        name: "KubeVirt"
+        devicon_name: "kubevirt"
+
   - title: "Programming Languages"
     icon: "code"
     color_scheme: "blue"

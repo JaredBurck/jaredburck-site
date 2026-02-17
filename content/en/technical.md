@@ -25,7 +25,7 @@ technical_groups:
         devicon_name: "ibmcloud"
 
   - title: "Operating Systems"
-    icon: "cloud"
+    icon: "os"
     color_scheme: "blue"
     skills:
       - icon: "linux"
@@ -39,7 +39,7 @@ technical_groups:
         devicon_name: "mac"
 
   - title: "Hypervisors"
-    icon: "cloud"
+    icon: "gear"
     color_scheme: "blue"
     skills:
       - icon: "kvm"
@@ -54,6 +54,36 @@ technical_groups:
       - icon: "kubevirt"
         name: "KubeVirt"
         devicon_name: "kubevirt"
+
+  - title: "Containers and Orchestration"
+    icon: "conductor"
+    color_scheme: "green"
+    skills:
+      - icon: "podman"
+        name: "Podman"
+        devicon_name: "podman"
+      - icon: "docker"
+        name: "Docker"
+        devicon_name: "docker"
+      - icon: "openshift"
+        name: "OpenShift"
+        devicon_name: "openshift"
+      - icon: "kubernetes"
+        name: "Kubernetes"
+        devicon_name: "kubernetes"
+
+  - title: "Infrastructure as Code (IaC)"
+    icon: "code"
+    color_scheme: "blue"
+    skills:
+      - icon: "python"
+        name: "Python"
+        devicon_name: "python"
+      - icon: "js"
+        name: "JavaScript"
+        devicon_name: "javascript"
+      - icon: "java"
+        name: "Java"
 
   - title: "Programming Languages"
     icon: "code"

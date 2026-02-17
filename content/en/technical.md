@@ -38,7 +38,7 @@ technical_groups:
         name: "Mac"
         devicon_name: "mac"
 
-- title: "Programming Languages"
+  - title: "Programming Languages"
     icon: "code"
     color_scheme: "blue"
     skills:

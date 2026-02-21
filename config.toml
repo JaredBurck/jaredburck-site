@@ -42,7 +42,7 @@ defaultContentLanguageInSubdir = false
 
   [[params.social]]
     icon = "linkedin-in"
-    url = "https://linkedin.com/in/J`aredBurck"
+    url = "https://linkedin.com/in/JaredBurck"
   [[params.social]]
     icon = "github"
     url = "https://github.com/JaredBurck"

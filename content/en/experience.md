@@ -28,7 +28,7 @@ positions:
     period: "2007 - 2011"
     location: "Austin, Texas"
     industry: "Software"
-    company_description: "Software development company"
+    company_description: "Austin Independent School District (ISD) is a school district based in the city of Austin, Texas, United States. The district operates 116 schools including 78 elementary schools, 19 middle schools, and 17 high schools.[9] As of 2013, AISD covers 54.1% of the City of Austin by area and serves 73.5% of its residents."
     bullet_points:
       - "System Implementation and Development: Designing, writing, and debugging code to create or improve software applications used within the district."
       - "Maintenance and Troubleshooting: Monitoring existing systems for bugs, conducting, and performing necessary upgrades to keep software secure and operational."

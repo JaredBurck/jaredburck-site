@@ -1,7 +1,7 @@
 ---
 title: "About"
 type: "homepage"
-featured_image: "/images/felipe-cordero-profile.jpeg"
+featured_image: "/images/jaredburck-profile.jpeg"
 intro: >-
   Hi! I'm Jared Burck, a **Enterprise Architect, DevOps Engineer, AI and Full Stack Developer** 🏗️🤖💻 with **22+ years** in IT and software development. My journey has taken me around the world, where I combine traditional engineering with modern technology to solve complex problems in engineering and automation. Currently, I'm at <a href="https://www.redhat.com" target="_blank" rel="noopener noreferrer"><strong>Red Hat</strong></a>, building hybrid, sovereign, and multi cloud solutions for container, VM, and AI workloads. 
 #Recently, I was honored with the **Academic Excellence Scholarship** (Air Canada, Collège LaSalle Montréal, 2025) 🏆 for my achievements in AI/ML studies.

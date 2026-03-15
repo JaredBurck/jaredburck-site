@@ -37,7 +37,8 @@ defaultContentLanguageInSubdir = false
   resume_url_fr = ""
   resume_label = "View CV/Resume"
   sectionPagesMenu = "main"
-  formspreeendpoint = ""
+  formspreeendpoint = "https://api.web3forms.com/submit"
+  web3formskey = "5d216d58-7ef0-4beb-a1c1-0a589024a67d"
   pexelsapikey = ""
 
   [[params.social]]

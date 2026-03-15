@@ -13,7 +13,7 @@ positions:
     company_url: "https://www.redhat.com"
     role: "Managing Architect"
     period: "2011 - Present"
-    location: "Raliegh, North Carolina"
+    location: "Austin, Texas"
     industry: "Technology"
     company_description: "Red Hat is an open hybrid cloud technology leader, delivering a consistent, comprehensive foundation for transformative IT and artificial intelligence (AI) applications in the enterprise."
     bullet_points:

@@ -5,11 +5,11 @@ lastmod: 2026-03-15
 type: "homepage"
 featured_image: "/images/jaredburck-profile.jpeg"
 intro: >-
-  Hi! I'm Jared Burck, a **Enterprise Architect, DevOps Engineer, AI and Full Stack Developer** 🏗️🤖💻 with **22+ years** in IT and software development. My journey has taken me around the world, where I combine traditional engineering with modern technology to solve complex problems in engineering and automation. Currently, I'm at <a href="https://www.redhat.com" target="_blank" rel="noopener noreferrer"><strong>Red Hat</strong></a>, building hybrid, sovereign, and multi cloud solutions for container, VM, and AI workloads. 
+  Hi! I'm Jared Burck, an **Enterprise Architect, a DevOps Engineer, a Full Stack Developer, and an AI/ML Scientist** 🏗️🤖💻 with **22+ years** in IT and application development and administration. My journey has taken me around the world, where I combine traditional engineering with modern technology to solve complex problems in engineering and automation. Currently, I'm at <a href="https://www.redhat.com" target="_blank" rel="noopener noreferrer"><strong>Red Hat</strong></a>, building hybrid, sovereign, and multi cloud solutions for container, VM, and AI workloads. 
 #Recently, I was honored with the **Academic Excellence Scholarship** (Air Canada, Collège LaSalle Montréal, 2025) 🏆 for my achievements in AI/ML studies.
 #intro: "Welcome to my personal website! I'm passionate about technology and innovation."
 
-study: "I have a strong background in computer science and software development."
+study: "I have a strong background in computer science and software development and application modernizations"
 
 passion_title: "My Passion"
 passion_text: "I love building solutions that make a difference and continuously learning new technologies."

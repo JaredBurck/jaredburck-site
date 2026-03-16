@@ -35,11 +35,13 @@ quickfacts:
     icon: "heart"
     kind: "interests"
     value: |
-      - Technology
-      - Innovation
-      - Open Source
+      - 💻 Technology
+      - 💡 Innovation
+      - 🔓🧰 Open Source
+      - 🔐 Security
+      - 🎵 Music
       - 🚴 Cycling
-      - Yoga
+      - 🧘 Yoga
       - ✈️ Traveling
   - title: "Languages"
     icon: "language"

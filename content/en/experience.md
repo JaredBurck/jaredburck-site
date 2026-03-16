@@ -1,5 +1,7 @@
 ---
 title: "Experience"
+date: 2026-02-12
+lastmod: 2026-03-15
 type: "homepage"
 #intro: "My professional journey and key achievements"
 intro: >-

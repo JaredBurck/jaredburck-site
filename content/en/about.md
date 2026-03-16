@@ -1,5 +1,7 @@
 ---
 title: "About"
+date: 2026-02-12
+lastmod: 2026-03-15
 type: "homepage"
 featured_image: "/images/jaredburck-profile.jpeg"
 intro: >-

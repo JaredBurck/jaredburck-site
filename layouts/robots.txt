@@ -1,0 +1,29 @@
+# JaredBurck-Site - Robots.txt
+# Optimized for SEO and AI Scraper Control (2026)
+
+User-agent: *
+Allow: /
+# Disallow low-value or system pages
+Disallow: /404.html
+Disallow: /search/
+Disallow: /private/
+Disallow: /admin/
+
+# Block AI training bots (Industry standard agents as of 2026)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# Reference your Sitemap (replace with your actual domain)
+Sitemap: {{ .Site.BaseURL }}sitemap.xml

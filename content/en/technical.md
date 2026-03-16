@@ -1,5 +1,7 @@
 ---
 title: "Tech Stack"
+date: 2026-02-12
+lastmod: 2026-03-15
 type: "homepage"
 #title: "Technical Projects"
 #intro: "Showcase of my technical work and contributions"

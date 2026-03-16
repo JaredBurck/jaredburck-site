@@ -1,5 +1,7 @@
 ---
 title: "Skills"
+date: 2026-02-12
+lastmod: 2026-02-21
 #intro: "A comprehensive overview of my technical expertise and professional capabilities"
 intro: >-
   Combining 22+ years of software engineering expertise with modern full-stack software development, specializing in hybrid and multi cloud enterprise architectures, platform engineering and operations, DevSecFinOps, and AI/ML capabilities to share and deliver excellence!

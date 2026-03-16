@@ -2,6 +2,7 @@ baseURL = "https://jaredburck.pages.dev"
 languageCode = "en-us"
 title = "Jared Burck"
 theme = "careercanvas"
+enableRobotsTXT = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 

@@ -1,27 +1,43 @@
 {{ if .IsHome }}
-{{ $profileImage := printf "%s%s" .Site.BaseURL (.Site.Params.profile_image | strings.TrimPrefix "/") }}
-{{ $person := dict
-  "@type" "Person"
-  "name" .Site.Params.name
-  "url" .Site.BaseURL
-  "image" $profileImage
-  "email" .Site.Params.email
-  "jobTitle" "Managing Architect"
-  "worksFor" (dict "@type" "Organization" "name" "Red Hat" "url" "https://www.redhat.com")
-  "address" (dict "@type" "PostalAddress" "addressLocality" "Austin" "addressRegion" "TX" "addressCountry" "US")
-  "sameAs" (slice .Site.Params.linkedin_url .Site.Params.github_url)
-  "description" .Site.Params.description
-  "knowsAbout" (slice "OpenShift" "Kubernetes" "Red Hat" "Hybrid Cloud" "Multi-Cloud" "AI/ML" "DevSecOps" "Automation" "Platform Engineering" "Open Source" "Solution Architecture")
-}}
-{{ $schema := dict
-  "@context" "https://schema.org"
-  "@type" "ProfilePage"
-  "url" .Site.BaseURL
-  "name" (printf "%s | %s" .Site.Title (.Site.Language.Params.tagline | default ""))
-  "description" .Site.Params.description
-  "mainEntity" $person
-}}
+{{ $baseURL := .Site.BaseURL }}
+{{ $image := printf "%s%s" $baseURL (.Site.Params.profile_image | strings.TrimPrefix "/") }}
+{{ $title := printf "%s | %s" .Site.Title (.Site.Language.Params.tagline | default "") }}
 <script type="application/ld+json">
-{{ $schema | jsonify (dict "indent" "  ") }}
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "{{ $baseURL }}",
+  "name": "{{ $title }}",
+  "description": "{{ .Site.Params.description }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.name }}",
+    "url": "{{ $baseURL }}",
+    "image": "{{ $image }}",
+    "email": "{{ .Site.Params.email }}",
+    "jobTitle": "Managing Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Red Hat",
+      "url": "https://www.redhat.com"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "{{ .Site.Params.linkedin_url }}",
+      "{{ .Site.Params.github_url }}"
+    ],
+    "description": "{{ .Site.Params.description }}",
+    "knowsAbout": [
+      "OpenShift", "Kubernetes", "Red Hat", "Hybrid Cloud", "Multi-Cloud",
+      "AI/ML", "DevSecOps", "Automation", "Platform Engineering",
+      "Open Source", "Solution Architecture"
+    ]
+  }
+}
 </script>
 {{ end }}

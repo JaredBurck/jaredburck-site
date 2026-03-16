@@ -16,6 +16,16 @@ defaultContentLanguageInSubdir = false
       hero_location = "Austin, Texas"
       collab_tags = ["Kubernetes/OpenShift", "AI/ML", "Automation", "Hybrid/Multi/Sovereign Cloud"]
 
+  [languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+    weight = 2
+
+  [languages.fr]
+    contentDir = "content/fr"
+    languageName = "Français"
+    weight = 3
+
 [build]
   writeStats = true
 

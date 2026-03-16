@@ -13,7 +13,7 @@ technical_groups:
     skills:
       - icon: "aws"
         name: "AWS"
-        devicon_name: "aws"
+        devicon_name: "amazonwebservices"
       - icon: "azure"
         name: "Azure"
         devicon_name: "azure"
@@ -33,10 +33,10 @@ technical_groups:
         devicon_name: "linux"
       - icon: "windows"
         name: "Windows"
-        devicon_name: "windows"
-      - icon: "mac"
-        name: "Mac"
-        devicon_name: "macos"
+        devicon_name: "windows11"
+      - icon: "apple"
+        name: "macOS"
+        devicon_name: "apple"
 
   - title: "Hypervisors"
     icon: "gear"

@@ -1,6 +1,6 @@
 ---
 title: "Welcome to My Blog"
-date: 2025-05-07
+date: 2026-03-14
 draft: false
 description: "Welcome to my blog where I share my journey of creating this website using Hugo and the CareerCanvas theme, along with insights about software engineering and development, automation, and AI across many industries and helping to establish best practices."
 # featured_image: "/images/personal_web_demo.png"

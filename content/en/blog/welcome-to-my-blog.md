@@ -25,7 +25,7 @@ In this blog, I'll be sharing insights about:
 - **Consulting Best Practices and Lessons Learned**: My experiences and projects in the field
 - **Software Development**: Tips and tricks for administrators and engineers learning to code
 - **Application Modernization**: The latest developments and applications
-- **Automation**: Streamlining manaul and automated processes
+- **Automation**: Streamlining manual and automated processes
 - **Latest AI Technologies**: Reviews and tutorials of useful tools
 
 ## The Tech Stack

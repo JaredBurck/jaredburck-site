@@ -21,10 +21,10 @@ personal: "When I'm not coding, I enjoy exploring new technologies and contribut
 quickfacts:
   - icon: "briefcase"
     title: "Current Role"
-    value: "🏗️🤖💻 Managing Architect, AI and Full Stack Consultant at <a href=\"https://www.redhat.com\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Red Hat</strong></a>"
+    value: "🏗️🤖💻 Managing Architect and OpenShift, AI, and Automation Consultant at <a href=\"https://www.redhat.com\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Red Hat</strong></a>"
   - icon: "graduation-cap"
     title: "Education"
-    value: "🏗️ <a href=\"https://www.txst.edu\" target=\"_blank\" rel=\"noopener noreferrer\">Texas State University</a>, **Bachelor's Degree in Computer Information Systems**<br>🤖 <a href=\"https://lasallecollege.lcieducation.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">McCoy College</a>., **BA: Business Administration**"
+    value: "🏗️ <a href=\"https://www.txst.edu\" target=\"_blank\" rel=\"noopener noreferrer\">Texas State University</a>, **Bachelor's Degree in Computer Information Systems**<br>🤖 <a href=\"https://mycatalog.txstate.edu/undergraduate/mccoy-business-administration/computer-information-systems-quantitative-methods/computer-information-systems-bba/\" target=\"_blank\" rel=\"noopener noreferrer\">McCoy College</a>., **BA: Business Administration**"
 #  - icon: "award"
 #    title: "Recent Achievement"
 #    value: "🏆 Recipient of the <a href=\"/blog/academic-excellence-recognition/\" target=\"_blank\" rel=\"noopener\">Academic Excellence Scholarship</a> 🎓 sponsored by ✈️ Air Canada at Collège LaSalle Montréal (2025) 🎉"

@@ -43,6 +43,6 @@ quickfacts:
     icon: "language"
     kind: "languages"
     value: |
-      - 🇬🇧 English (Native)
+      - 🇺🇸 English (Native)
       - 🇨🇱 Spanish (Novice)
 ---

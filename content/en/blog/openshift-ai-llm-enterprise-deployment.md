@@ -1,9 +1,9 @@
 ---
 title: "Enterprise Generative AI: Architecting and Self-Hosting Large Language Models on Red Hat OpenShift"
 date: 2026-03-18
-draft: true
+draft: false
 description: "An end-to-end architectural guide to self-hosting enterprise generative AI with Red Hat OpenShift AI, moving from public API usage to controlled, compliant deployments. It covers reference serving architectures (KServe/Knative/service mesh), GPU acceleration discovery, production-ready inference runtimes like vLLM, Day-2 governance, and the TCO tradeoffs versus API-based LLMs."
-# featured_image: "/images/personal_web_demo.png"
+featured_image: "/images/ocp-gen-ai-self-hosting/gemini-openshift-ai-blog-post.png"
 tags: ["blog", "openshift", "ai", "llm", "genai", "enterprise-ai", "kserve", "vllm", "mlops", "service-mesh", "gpu", "tco"]
 ---
 

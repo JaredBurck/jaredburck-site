@@ -23,7 +23,7 @@ positions:
       - "Providing Technical Expertise & Mentorship: Acting as a subject matter expert (SME) on client engagements, offering hands-on support for deployments, operations, upgrades, administration, performance tuning, and guiding customer teams on best practices for containerization, virtualization, AI/ML, and GitOps workflows."
       - "Driving Digital Transformation: Assisting clients in migrating from legacy platforms, modernizing application development and platforms, and adopting cloud-native approaches to enhance operational efficiency, including hybrid-, multi-, and sovereign- cloud."
       - "Delivering Strategic Consultancy & Documentation: Producing high-quality technical documentation, including architecture designs, security strategies, and operational runbooks, while aligning IT solutions with business goals and outcomes."
-      - "Managing Client Relationships & Projects: Identifying project risks, managing expectations, and serving as a liaison between Red Hat sales, consulting, business, product, engineering, and support teams and the customer to ensure successful adoption of solutions and programs."
+      - "Managing Client Relationships & Projects: Identifying project risks, managing expectations, and serving as a liaison between Red Hat sales, consulting, business, product, engineering, and support teams and the customer to ensure successful adoption of solutions, egagements, and programs."
   - company: "Austin ISD"
     company_url: "https://www.austinisd.org"
     role: "Software Engineer"
